@@ -1,0 +1,145 @@
+.sec1{
+    width:100%;
+    max-height:100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec2{
+    padding:2% 6%;
+    margin:0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    .para{
+        max-width: 800px;
+        line-height: 28px;
+        text-align: justify;
+    }
+}
+.heading{
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    justify-self: center;
+    border-bottom: 2px solid black;
+    span{
+        color:rgb(200, 157, 30);
+    }
+}
+.para2{
+    padding:0;
+    max-width: 800px;
+    text-align: justify;
+}
+.track-title{
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.para2 li {
+    list-style: none;
+    margin:10px 0;
+}
+
+.para2 li::before {
+    font-size: 1.3rem;
+    content: "\00BB"; /* Unicode for » (right-pointing double angle) */
+    margin-right: 8px; /* Adds spacing between the symbol and text */
+    color: black; /* Optional: change the symbol color */
+}
+.right{
+    margin-left:20px;
+    max-width:450px;
+    padding:2% 2%;
+    box-shadow: 5px 5px 10px rgba(193, 193, 193,0.7);
+    border-radius: 10px;
+    background-color:rgb(236, 248, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .head1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+            p{
+                font-size: 1.4rem;
+                font-weight: 500;
+                justify-self: center;
+                span{
+                    color:rgb(200, 157, 30);
+                }
+            }
+        .btns{
+            display: flex;
+            flex-direction: column;
+        }
+        img{ 
+            margin:20px 0;
+            max-width:300px;
+            background-color: rgb(255, 255, 255);
+            padding:20px;
+            border-radius: 10px;
+            
+        }
+    }
+    .head1 .btns button{
+            font-size: 0.89rem;
+            margin:7px 0;
+            background-color:rgb(21, 94, 149);
+            border-radius:4px;
+            cursor:pointer;
+            color:white;
+            border:none;
+            padding:18px 24px;
+        }
+        .list-items{
+            padding:0;
+        }
+        .list-items li {
+            list-style: none; /* Removes default bullets */
+        }
+        
+        .list-items li::before {
+            font-size: 1.3rem;
+            content: "\00BB"; /* Unicode for » (right-pointing double angle) */
+            margin-right: 8px; /* Adds spacing between the symbol and text */
+            color: black; /* Optional: change the symbol color */
+        }
+        
+        .list-items li a {
+            color: red;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .c1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            button{
+                width:100%;
+                padding:10px 0;
+                font-size:1rem;
+            }
+        }
+        .name{
+            font-size: 1rem;
+            font-weight: 400;
+            color: rgb(37, 37, 165);
+        }
+        .pos{
+            font-size:1.1rem;
+            font-weight: 500;
+            margin:10px 0;
+        }
+}
+
+@media (max-width:768px){
+    .sec2{
+        flex-direction: column;
+    }
+    .right{
+        max-width:100%;
+        padding:2% 2%;
+    }
+}
