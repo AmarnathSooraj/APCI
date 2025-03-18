@@ -61,7 +61,7 @@ function Home() {
       </section>
       
       <section className="scope-section">
-        <h2 className="section-heading">SCOPE <span>OF THE CONFERENCE</span></h2>
+        <h2 className="section-heading">SCOPE <span>OF THE InRACs</span></h2>
         <ul className="scope-list">
           <li>
             <span className="track-title">Track 1: Artificial Intelligence & Machine Learning</span><br/>
