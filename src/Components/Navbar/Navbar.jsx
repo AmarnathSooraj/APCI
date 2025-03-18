@@ -17,7 +17,6 @@ function Navbar() {
       </div>
       <div className="nav2">
         <img src={vda} alt="College Logo 1" />
-        {/* <img src={ktu} alt="College Logo 2" /> */}
         <h1>InRacs2025</h1>
         <img src={ktu} alt="College Logo 3" />
       </div>
@@ -31,7 +30,6 @@ function Navbar() {
           <a href="/registration">Registration</a>
           <a href="/contact-us">Contact Us</a>
         </div>
-        {/* <img src={menu} className="menu2" alt="Menu" /> */}
       </nav>
     </header>
   );
