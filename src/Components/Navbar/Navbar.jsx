@@ -23,12 +23,12 @@ function Navbar() {
       <nav className="nav3">
         <div className="menu1">
           <a href="/">Home</a>
-          <a href="/about">About</a>
-          <a href="/committee">Committee</a>
-          <a href="/speakers">Speakers</a>
-          <a href="/event-details">Event/Details</a>
-          <a href="/registration">Registration</a>
-          <a href="/contact-us">Contact Us</a>
+          <a href="/">About</a>
+          <a href="/">Committee</a>
+          <a href="/">Speakers</a>
+          <a href="/">Event/Details</a>
+          <a href="/">Registration</a>
+          <a href="/">Contact Us</a>
         </div>
       </nav>
     </header>
