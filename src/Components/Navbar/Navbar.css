@@ -38,6 +38,19 @@
   width: 90px;
   margin: 10px;
 }
+.nav2 .title{
+  font-weight: 500;
+  font-size:2rem ;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.nav2 .title span{
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  color:rgb(203, 25, 25);
+}
 
 .nav2 img:nth-child(1) {
   width: 140px;
@@ -81,6 +94,12 @@
   .nav2 img {
     width: 100px; /* Adjust image size for smaller screens */
     margin: 5px; /* Reduce margin for smaller screens */
+  }
+  .nav2 .title{
+    font-size: 1.3rem;
+  }
+  .nav2 .title span{
+    font-size: 0.7rem;
   }
 
   .nav2 img:nth-child(1) {

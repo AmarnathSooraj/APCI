@@ -17,7 +17,9 @@ function Navbar() {
       </div>
       <div className="nav2">
         <img src={vda} alt="College Logo 1" />
-        <h1>InRacs2025</h1>
+        <div className='title'>InRACS 2025
+          <span>International Conference on Recent Advancements in Computing Technology and System Design</span>
+        </div>
         <img src={ktu} alt="College Logo 3" />
       </div>
       <nav className="nav3">
