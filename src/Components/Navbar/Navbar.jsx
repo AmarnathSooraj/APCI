@@ -35,7 +35,7 @@ function Navbar() {
           <Link to="/about">About</Link>
           <Link to="/committee">Committee</Link>
           <Link to="/speakers">Speakers</Link>
-          <Link to="/event-details">Event/Details</Link>
+          <Link to="/events">Event/Details</Link>
           <Link to="/registration">Registration</Link>
           <Link to="/contact">Contact Us</Link>
         </div>

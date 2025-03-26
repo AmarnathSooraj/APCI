@@ -1,0 +1,42 @@
+.speakers-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .speakers-container h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .speakers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .speaker-card {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .speaker-card h3 {
+    color: #333;
+    margin: 5px 0;
+  }
+  
+  .speaker-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
