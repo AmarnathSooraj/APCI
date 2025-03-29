@@ -9,6 +9,9 @@ import Contact from "./Components/Contactus/Contact";
 import Speakers from "./Components/Speakers/Speakers";
 import Events from "./Components/Events/Events";
 import Registration from "./Components/Registration/Registration";
+import PaperSubmission from './Components/PaperSubmission/PaperSubmission';
+import CallforPapers from './Components/CallforPapers/ConferenceTracks';
+import ConferenceTracks from './Components/CallforPapers/ConferenceTracks';
 
 
 function AppContent() {
@@ -34,6 +37,8 @@ function App() {
         <Route path="/speakers" element={<Speakers />} />
         <Route path="/events" element={<Events />} />
         <Route path="/registration" element={<Registration />} />
+        <Route path="/papersubmission" element={<PaperSubmission />} />
+        <Route path="/conferenceTracks" element={<ConferenceTracks />} />
         <Route path="*" element={<h1 className="coming-soon">Coming Soon</h1>} />
       </Routes>
       <Footer />
