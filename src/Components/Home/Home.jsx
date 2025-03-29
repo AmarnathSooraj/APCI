@@ -51,9 +51,9 @@ function Home() {
           <div className="dates-section">
             <h2 className="section-heading">IMPORTANT <span>DATES</span></h2>
             <ul className="dates-list">
-              <li>Last date for paper submission: <a href="#">15th April 2025</a></li>
-              <li>Acceptance notification: <a href="#">15th May 2025</a></li>
-              <li>Last date for camera-ready copy submission: <a href="#">30th May 2025</a></li>
+              <li>Last date for paper submission: <a href="#">20th May 2025</a></li>
+              <li>Acceptance notification: <a href="#">5th June 2025</a></li>
+              <li>Last date for camera-ready copy submission: <a href="#">15th June 2025</a></li>
             </ul>
           </div>
         </div>
