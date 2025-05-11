@@ -3,7 +3,14 @@ import "./ConferenceTracks.css";
 
 function ConferenceTracks() {
   return (
+    
     <div className="tracks-container">
+      <div className="track">
+        <h2>PUBLICATION DETAILS</h2>
+        <p>
+          Selected papers will be published in <a href="#">International Journal of Innovative Research in Technology</a> - an UGC approved journal (IJIRT)
+        </p>
+      </div>
       <h2>Conference Tracks and Topics</h2>
       <p>
         The conference will be conducted in six parallel tracks. Topics of interest in each track include, but are not limited to, the following:
