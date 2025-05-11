@@ -56,6 +56,13 @@ function Home() {
               <li>Last date for camera-ready copy submission: <a href="#">15th June 2025</a></li>
             </ul>
           </div>
+          
+          <div className="dates-section">
+            <h2 className="section-heading">PUBLICATION <span>DETAILS</span></h2>
+            <ul className="dates-list">
+              <li>Selected papers will be published in <a href="#">International Journal of Innovative Research in Technology</a> - an UGC approved journal (IJIRT)</li>
+            </ul>
+          </div>
         </div>
       </section>
       
