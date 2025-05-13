@@ -8,7 +8,7 @@ function ConferenceTracks() {
       <div className="track">
         <h2>PUBLICATION DETAILS</h2>
         <p>
-          Selected papers will be published in <a href="#">International Journal of Innovative Research in Technology</a> - an UGC approved journal (IJIRT)
+          Selected papers will be published in International Journal of Innovative Research in Technology - an UGC approved journal (IJIRT)
         </p>
       </div>
       <h2>Conference Tracks and Topics</h2>
