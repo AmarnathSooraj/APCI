@@ -1,5 +1,6 @@
 import React from "react";
 import "./Registration.css";
+import { Link } from "react-router";
 
 function Registration() {
   return (
@@ -39,6 +40,7 @@ function Registration() {
           </tr>
         </tbody>
       </table>
+      <Link to='https://forms.gle/L8xv42ePy4LYqHWa7'><button className="reg-btn">Register</button></Link>
     </div>
   );
 }

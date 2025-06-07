@@ -13,7 +13,6 @@ import PaperSubmission from './Components/PaperSubmission/PaperSubmission';
 import CallforPapers from './Components/CallforPapers/ConferenceTracks';
 import ConferenceTracks from './Components/CallforPapers/ConferenceTracks';
 
-
 function AppContent() {
   const location = useLocation();
 

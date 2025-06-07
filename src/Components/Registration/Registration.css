@@ -15,6 +15,20 @@
   padding-bottom: 5px;
   margin-bottom: 15px;
 }
+.reg-btn{
+  padding:10px 20px;
+  margin:20px 0;
+  font-size: 1.05rem;
+  background-color:#034382;
+  color:#fefefe;
+  border:none;
+  border-radius: 6px;
+}
+.reg-btn:hover{
+  background-color:#035fbc;
+  scale:1.02;
+  cursor:pointer;
+}
 
 .guidelines {
   text-align: left;
